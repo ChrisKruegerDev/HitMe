@@ -7,19 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83225D0F25FA1A4400C1AA8D /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83225D0E25FA1A4400C1AA8D /* PointsView.swift */; };
+		83828BEB25F4EC840043F125 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83828BEA25F4EC840043F125 /* Game.swift */; };
+		838F030C25F8CD4600791F72 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F030B25F8CD4600791F72 /* BackgroundView.swift */; };
 		83A2F72225F37CE300BC47A0 /* HitMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2F72125F37CE300BC47A0 /* HitMeApp.swift */; };
 		83A2F72425F37CE300BC47A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2F72325F37CE300BC47A0 /* ContentView.swift */; };
 		83A2F72625F37CE400BC47A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A2F72525F37CE400BC47A0 /* Assets.xcassets */; };
 		83A2F72925F37CE400BC47A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A2F72825F37CE400BC47A0 /* Preview Assets.xcassets */; };
+		83BBAFD025FB752E007C347C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBAFCF25FB752E007C347C /* Constants.swift */; };
+		83BBAFD625FB9F3C007C347C /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBAFD525FB9F3C007C347C /* LeaderboardView.swift */; };
+		83DBFC5225F7F46300F37B3C /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBFC5125F7F46300F37B3C /* TextViews.swift */; };
+		83DBFC5825F7FA8D00F37B3C /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBFC5725F7FA8D00F37B3C /* Shapes.swift */; };
+		83DBFC5C25F8B61200F37B3C /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBFC5B25F8B61200F37B3C /* RoundedViews.swift */; };
+		83F87A3B25F63BFE008A3924 /* HitMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F87A3A25F63BFE008A3924 /* HitMeTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		83F87A3D25F63BFE008A3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A2F71625F37CE300BC47A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A2F71D25F37CE300BC47A0;
+			remoteInfo = HitMe;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A4168CFB674EF4E8CF87A08 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		83225D0E25FA1A4400C1AA8D /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		83828BEA25F4EC840043F125 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		838F030B25F8CD4600791F72 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		83A2F71E25F37CE300BC47A0 /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A2F72125F37CE300BC47A0 /* HitMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitMeApp.swift; sourceTree = "<group>"; };
 		83A2F72325F37CE300BC47A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83A2F72525F37CE400BC47A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A2F72825F37CE400BC47A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83A2F72A25F37CE400BC47A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BBAFCF25FB752E007C347C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		83BBAFD525FB9F3C007C347C /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		83DBFC5125F7F46300F37B3C /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		83DBFC5725F7FA8D00F37B3C /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		83DBFC5B25F8B61200F37B3C /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		83F87A3825F63BFE008A3924 /* HitMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F87A3A25F63BFE008A3924 /* HitMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitMeTests.swift; sourceTree = "<group>"; };
+		83F87A3C25F63BFE008A3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,14 +61,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83F87A3525F63BFE008A3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83828BE525F4EBED0043F125 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83828BEA25F4EC840043F125 /* Game.swift */,
+				83BBAFCF25FB752E007C347C /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83828BE625F4EBF20043F125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83A2F72325F37CE300BC47A0 /* ContentView.swift */,
+				83DBFC5125F7F46300F37B3C /* TextViews.swift */,
+				83DBFC5725F7FA8D00F37B3C /* Shapes.swift */,
+				83DBFC5B25F8B61200F37B3C /* RoundedViews.swift */,
+				838F030B25F8CD4600791F72 /* BackgroundView.swift */,
+				83225D0E25FA1A4400C1AA8D /* PointsView.swift */,
+				83BBAFD525FB9F3C007C347C /* LeaderboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83828BE725F4EBFF0043F125 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				83A2F72125F37CE300BC47A0 /* HitMeApp.swift */,
+				83A2F72525F37CE400BC47A0 /* Assets.xcassets */,
+				83A2F72A25F37CE400BC47A0 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		83A2F71525F37CE300BC47A0 = {
 			isa = PBXGroup;
 			children = (
 				83A2F72025F37CE300BC47A0 /* HitMe */,
+				83F87A3925F63BFE008A3924 /* HitMeTests */,
 				83A2F71F25F37CE300BC47A0 /* Products */,
+				5A4168CFB674EF4E8CF87A08 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				83A2F71E25F37CE300BC47A0 /* HitMe.app */,
+				83F87A3825F63BFE008A3924 /* HitMeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +126,9 @@
 		83A2F72025F37CE300BC47A0 /* HitMe */ = {
 			isa = PBXGroup;
 			children = (
-				83A2F72125F37CE300BC47A0 /* HitMeApp.swift */,
-				83A2F72325F37CE300BC47A0 /* ContentView.swift */,
-				83A2F72525F37CE400BC47A0 /* Assets.xcassets */,
-				83A2F72A25F37CE400BC47A0 /* Info.plist */,
+				83828BE725F4EBFF0043F125 /* App */,
+				83828BE625F4EBF20043F125 /* Views */,
+				83828BE525F4EBED0043F125 /* Models */,
 				83A2F72725F37CE400BC47A0 /* Preview Content */,
 			);
 			path = HitMe;
@@ -67,6 +140,15 @@
 				83A2F72825F37CE400BC47A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83F87A3925F63BFE008A3924 /* HitMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F87A3A25F63BFE008A3924 /* HitMeTests.swift */,
+				83F87A3C25F63BFE008A3924 /* Info.plist */,
+			);
+			path = HitMeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +171,24 @@
 			productReference = 83A2F71E25F37CE300BC47A0 /* HitMe.app */;
 			productType = "com.apple.product-type.application";
 		};
+		83F87A3725F63BFE008A3924 /* HitMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F87A3F25F63BFE008A3924 /* Build configuration list for PBXNativeTarget "HitMeTests" */;
+			buildPhases = (
+				83F87A3425F63BFE008A3924 /* Sources */,
+				83F87A3525F63BFE008A3924 /* Frameworks */,
+				83F87A3625F63BFE008A3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F87A3E25F63BFE008A3924 /* PBXTargetDependency */,
+			);
+			name = HitMeTests;
+			productName = HitMeTests;
+			productReference = 83F87A3825F63BFE008A3924 /* HitMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +200,10 @@
 				TargetAttributes = {
 					83A2F71D25F37CE300BC47A0 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					83F87A3725F63BFE008A3924 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 83A2F71D25F37CE300BC47A0;
 					};
 				};
 			};
@@ -117,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				83A2F71D25F37CE300BC47A0 /* HitMe */,
+				83F87A3725F63BFE008A3924 /* HitMeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +236,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83F87A3625F63BFE008A3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +250,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BBAFD625FB9F3C007C347C /* LeaderboardView.swift in Sources */,
+				83DBFC5C25F8B61200F37B3C /* RoundedViews.swift in Sources */,
 				83A2F72425F37CE300BC47A0 /* ContentView.swift in Sources */,
+				83225D0F25FA1A4400C1AA8D /* PointsView.swift in Sources */,
+				83DBFC5225F7F46300F37B3C /* TextViews.swift in Sources */,
+				838F030C25F8CD4600791F72 /* BackgroundView.swift in Sources */,
+				83BBAFD025FB752E007C347C /* Constants.swift in Sources */,
+				83DBFC5825F7FA8D00F37B3C /* Shapes.swift in Sources */,
+				83828BEB25F4EC840043F125 /* Game.swift in Sources */,
 				83A2F72225F37CE300BC47A0 /* HitMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83F87A3425F63BFE008A3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F87A3B25F63BFE008A3924 /* HitMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F87A3E25F63BFE008A3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A2F71D25F37CE300BC47A0 /* HitMe */;
+			targetProxy = 83F87A3D25F63BFE008A3924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		83A2F72B25F37CE400BC47A0 /* Debug */ = {
@@ -271,7 +407,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HitMe/Preview Content\"";
 				DEVELOPMENT_TEAM = 99DRR4LYQX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HitMe/Info.plist;
+				INFOPLIST_FILE = HitMe/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +429,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HitMe/Preview Content\"";
 				DEVELOPMENT_TEAM = 99DRR4LYQX;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HitMe/Info.plist;
+				INFOPLIST_FILE = HitMe/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +439,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83F87A4025F63BFE008A3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99DRR4LYQX;
+				INFOPLIST_FILE = HitMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.chriskrueger.HitMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitMe.app/HitMe";
+			};
+			name = Debug;
+		};
+		83F87A4125F63BFE008A3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99DRR4LYQX;
+				INFOPLIST_FILE = HitMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.chriskrueger.HitMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitMe.app/HitMe";
 			};
 			name = Release;
 		};
@@ -323,6 +499,15 @@
 			buildConfigurations = (
 				83A2F72E25F37CE400BC47A0 /* Debug */,
 				83A2F72F25F37CE400BC47A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F87A3F25F63BFE008A3924 /* Build configuration list for PBXNativeTarget "HitMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F87A4025F63BFE008A3924 /* Debug */,
+				83F87A4125F63BFE008A3924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
