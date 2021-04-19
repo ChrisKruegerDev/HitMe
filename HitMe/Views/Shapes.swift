@@ -10,7 +10,7 @@ struct Shapes: View {
 				Circle()
 					.stroke(Color.blue, lineWidth: 1.0)
 					//				 .fill(Color.blue)
-					.frame(width: 200, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+					.frame(width: 200, height: 100, alignment: .center)
 					.transition(.opacity)
 			}
 			
